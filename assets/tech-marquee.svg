@@ -1,0 +1,365 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220">
+  <defs>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#070c14" stop-opacity="1"/>
+      <stop offset="1" stop-color="#070c14" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#070c14" stop-opacity="1"/>
+      <stop offset="1" stop-color="#070c14" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ec4ff"/>
+      <stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect x="16" y="16" width="1168" height="188" rx="20"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="220" rx="24" fill="#070c14" stroke="#1b2f42"/>
+  <rect x="16" y="16" width="1168" height="188" rx="20" fill="#0a121c" stroke="#1a2d40"/>
+  <rect x="16" y="16" width="1168" height="3" rx="1.5" fill="url(#edge)" opacity=".85"/>
+
+  <g clip-path="url(#frame)">
+    <!-- Row 1: left -> right -->
+    <g transform="translate(0,42)">
+      <g>
+        <g transform="translate(0,0)">
+  <rect width="118" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#3776AB"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Python</text>
+</g>
+<g transform="translate(132,0)">
+  <rect width="118" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#092E20"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Django</text>
+</g>
+<g transform="translate(264,0)">
+  <rect width="127" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#009688"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">FastAPI</text>
+</g>
+<g transform="translate(405,0)">
+  <rect width="127" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#339933"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Node.js</text>
+</g>
+<g transform="translate(546,0)">
+  <rect width="118" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#E0234E"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">NestJS</text>
+</g>
+<g transform="translate(678,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#00ADD8"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Go</text>
+</g>
+<g transform="translate(802,0)">
+  <rect width="154" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#3178C6"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">TypeScript</text>
+</g>
+<g transform="translate(970,0)">
+  <rect width="154" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#F7DF1E"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">JavaScript</text>
+</g>
+<g transform="translate(1138,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#61DAFB"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">React</text>
+</g>
+<g transform="translate(1262,0)">
+  <rect width="127" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#FFFFFF"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Next.js</text>
+</g>
+<g transform="translate(1403,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#E34F26"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">HTML</text>
+</g>
+<g transform="translate(1527,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#1572B6"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">CSS</text>
+</g>
+<g transform="translate(1651,0)">
+  <rect width="136" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#06B6D4"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Tailwind</text>
+</g>
+        <g transform="translate(1801,0)"><g transform="translate(0,0)">
+  <rect width="118" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#3776AB"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Python</text>
+</g>
+<g transform="translate(132,0)">
+  <rect width="118" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#092E20"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Django</text>
+</g>
+<g transform="translate(264,0)">
+  <rect width="127" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#009688"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">FastAPI</text>
+</g>
+<g transform="translate(405,0)">
+  <rect width="127" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#339933"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Node.js</text>
+</g>
+<g transform="translate(546,0)">
+  <rect width="118" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#E0234E"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">NestJS</text>
+</g>
+<g transform="translate(678,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#00ADD8"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Go</text>
+</g>
+<g transform="translate(802,0)">
+  <rect width="154" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#3178C6"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">TypeScript</text>
+</g>
+<g transform="translate(970,0)">
+  <rect width="154" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#F7DF1E"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">JavaScript</text>
+</g>
+<g transform="translate(1138,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#61DAFB"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">React</text>
+</g>
+<g transform="translate(1262,0)">
+  <rect width="127" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#FFFFFF"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Next.js</text>
+</g>
+<g transform="translate(1403,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#E34F26"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">HTML</text>
+</g>
+<g transform="translate(1527,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#1572B6"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">CSS</text>
+</g>
+<g transform="translate(1651,0)">
+  <rect width="136" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#06B6D4"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Tailwind</text>
+</g></g>
+        <animateTransform attributeName="transform" type="translate"
+          from="-1801" to="0" dur="28s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- Row 2: left -> right, offset phase / slower -->
+    <g transform="translate(0,118)">
+      <g>
+        <g transform="translate(0,0)">
+  <rect width="154" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#4169E1"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">PostgreSQL</text>
+</g>
+<g transform="translate(168,0)">
+  <rect width="127" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#47A248"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">MongoDB</text>
+</g>
+<g transform="translate(309,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#DC382D"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Redis</text>
+</g>
+<g transform="translate(433,0)">
+  <rect width="118" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#2496ED"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Docker</text>
+</g>
+<g transform="translate(565,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#FCC624"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Linux</text>
+</g>
+<g transform="translate(689,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#009639"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Nginx</text>
+</g>
+<g transform="translate(813,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#FF9900"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">AWS</text>
+</g>
+<g transform="translate(937,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#4285F4"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">GCP</text>
+</g>
+<g transform="translate(1061,0)">
+  <rect width="172" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#0080FF"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">DigitalOcean</text>
+</g>
+<g transform="translate(1247,0)">
+  <rect width="190" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#2088FF"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">GitHub Actions</text>
+</g>
+<g transform="translate(1451,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#F05032"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Git</text>
+</g>
+<g transform="translate(1575,0)">
+  <rect width="127" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#EE4C2C"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">PyTorch</text>
+</g>
+<g transform="translate(1716,0)">
+  <rect width="154" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#FF6F00"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">TensorFlow</text>
+</g>
+<g transform="translate(1884,0)">
+  <rect width="163" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#8B0000"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Django REST</text>
+</g>
+<g transform="translate(2061,0)">
+  <rect width="172" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#FFD21E"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Hugging Face</text>
+</g>
+<g transform="translate(2247,0)">
+  <rect width="172" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#F7931E"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">scikit-learn</text>
+</g>
+<g transform="translate(2433,0)">
+  <rect width="154" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#2EAD33"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Playwright</text>
+</g>
+<g transform="translate(2601,0)">
+  <rect width="118" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#729B1B"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Vitest</text>
+</g>
+<g transform="translate(2733,0)">
+  <rect width="118" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#362D59"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Sentry</text>
+</g>
+        <g transform="translate(2865,0)"><g transform="translate(0,0)">
+  <rect width="154" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#4169E1"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">PostgreSQL</text>
+</g>
+<g transform="translate(168,0)">
+  <rect width="127" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#47A248"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">MongoDB</text>
+</g>
+<g transform="translate(309,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#DC382D"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Redis</text>
+</g>
+<g transform="translate(433,0)">
+  <rect width="118" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#2496ED"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Docker</text>
+</g>
+<g transform="translate(565,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#FCC624"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Linux</text>
+</g>
+<g transform="translate(689,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#009639"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Nginx</text>
+</g>
+<g transform="translate(813,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#FF9900"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">AWS</text>
+</g>
+<g transform="translate(937,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#4285F4"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">GCP</text>
+</g>
+<g transform="translate(1061,0)">
+  <rect width="172" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#0080FF"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">DigitalOcean</text>
+</g>
+<g transform="translate(1247,0)">
+  <rect width="190" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#2088FF"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">GitHub Actions</text>
+</g>
+<g transform="translate(1451,0)">
+  <rect width="110" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#F05032"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Git</text>
+</g>
+<g transform="translate(1575,0)">
+  <rect width="127" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#EE4C2C"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">PyTorch</text>
+</g>
+<g transform="translate(1716,0)">
+  <rect width="154" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#FF6F00"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">TensorFlow</text>
+</g>
+<g transform="translate(1884,0)">
+  <rect width="163" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#8B0000"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Django REST</text>
+</g>
+<g transform="translate(2061,0)">
+  <rect width="172" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#FFD21E"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Hugging Face</text>
+</g>
+<g transform="translate(2247,0)">
+  <rect width="172" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#F7931E"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">scikit-learn</text>
+</g>
+<g transform="translate(2433,0)">
+  <rect width="154" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#2EAD33"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Playwright</text>
+</g>
+<g transform="translate(2601,0)">
+  <rect width="118" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#729B1B"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Vitest</text>
+</g>
+<g transform="translate(2733,0)">
+  <rect width="118" height="44" rx="22" fill="#0d1a27" stroke="#1f364c"/>
+  <circle cx="22" cy="22.0" r="6" fill="#362D59"/>
+  <text x="38" y="27.0" fill="#e8f1fa" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="600">Sentry</text>
+</g></g>
+        <animateTransform attributeName="transform" type="translate"
+          from="-2865" to="0" dur="34s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- edge fades -->
+  <rect x="16" y="16" width="72" height="188" fill="url(#fadeL)"/>
+  <rect x="1112" y="16" width="72" height="188" fill="url(#fadeR)"/>
+</svg>

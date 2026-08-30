@@ -41,16 +41,7 @@ I turn real-world problems into **scalable, secure, reliable, and maintainable p
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,django,fastapi,nodejs,nestjs,go,typescript,javascript,react,nextjs,html,css,tailwind,postgres,mongodb,redis,docker,linux,nginx,aws,gcp,digitalocean,githubactions,git,pytorch,tensorflow" alt="Technology stack"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Django%20REST-8B0000?style=for-the-badge&logo=django&logoColor=white"/>
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vitest-252529?style=for-the-badge&logo=vitest&logoColor=FCC72B"/>
-<img src="https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white"/>
+<img src="./assets/tech-marquee.svg" width="100%" alt="Animated technology stack"/>
 
 </div>
 
