@@ -22,8 +22,8 @@
   </circle>
 
   <text x="108" y="68" fill="#f2f7ff" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="28" font-weight="700">Open to collaboration</text>
-  <text x="108" y="102" fill="#93a9c0" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">Remote full-stack · Healthcare / FinTech / SaaS · Realtime systems · OSS</text>
+  <text x="108" y="102" fill="#93a9c0" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">Remote full-stack / Healthcare / FinTech / SaaS / Realtime systems / OSS</text>
 
   <rect x="820" y="52" width="320" height="56" rx="28" fill="#0d1a27" stroke="#2ec4ff" stroke-opacity=".45"/>
-  <text x="980" y="86" text-anchor="middle" fill="#5eead4" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700">LET'S BUILD TOGETHER</text>
+  <text x="980" y="86" text-anchor="middle" fill="#5eead4" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700">LET&apos;S BUILD TOGETHER</text>
 </svg>
