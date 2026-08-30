@@ -198,7 +198,7 @@ A TypeScript project demonstrating product-oriented application development and 
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/brainArt16/brainArt16/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake" />
+<img src="https://raw.githubusercontent.com/brainArt16/brainart16/gh-pages/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake" />
 
 </div>
 

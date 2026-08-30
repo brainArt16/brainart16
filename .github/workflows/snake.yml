@@ -24,7 +24,8 @@ jobs:
       - name: Publish snake
         uses: crazy-max/ghaction-github-pages@v5
         with:
-          target_branch: output
+          target_branch: gh-pages
           build_dir: dist
+          jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
