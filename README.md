@@ -18,10 +18,6 @@
 
 <img src="./assets/collab-banner.svg" width="100%" alt="Open to collaboration"/>
 
-<br/>
-
-<a href="mailto:davidndaga1603@gmail.com"><img src="./assets/contact-strip.svg" width="100%" alt="Contact and availability"/></a>
-
 ---
 
 <img src="./assets/icons/whoami.svg" width="100%" alt="whoami"/>
