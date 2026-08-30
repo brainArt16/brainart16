@@ -1,58 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" width="1600" height="520">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" width="1600" height="560">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#070b14"/>
-      <stop offset=".55" stop-color="#0b1220"/>
-      <stop offset="1" stop-color="#071018"/>
+    <linearGradient id="hBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05080f"/>
+      <stop offset=".45" stop-color="#08111c"/>
+      <stop offset="1" stop-color="#06141a"/>
     </linearGradient>
-    <linearGradient id="a" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#36bcf7"/>
-      <stop offset="1" stop-color="#8b5cf6"/>
+    <linearGradient id="hAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ec4ff"/>
+      <stop offset=".55" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#2ec4ff" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
-      <path d="M64 0H0V64" fill="none" stroke="#213047" stroke-opacity=".38"/>
-    </pattern>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop stop-color="#36bcf7" stop-opacity=".28"/>
-      <stop offset="1" stop-color="#36bcf7" stop-opacity="0"/>
+    <linearGradient id="hBeam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ec4ff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#2ec4ff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#2ec4ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="hOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2ec4ff" stop-opacity=".32"/>
+      <stop offset=".55" stop-color="#5eead4" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#2ec4ff" stop-opacity="0"/>
     </radialGradient>
+    <pattern id="hGrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#1a2d40" stroke-opacity=".45"/>
+    </pattern>
+    <linearGradient id="hFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05080f" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#05080f" stop-opacity=".75"/>
+    </linearGradient>
   </defs>
 
-  <rect width="1600" height="520" rx="24" fill="url(#bg)"/>
-  <rect width="1600" height="520" fill="url(#grid)"/>
-  <circle cx="1280" cy="250" r="300" fill="url(#glow)">
-    <animate attributeName="r" values="260;340;260" dur="5s" repeatCount="indefinite"/>
+  <rect width="1600" height="560" rx="28" fill="url(#hBg)"/>
+  <rect width="1600" height="560" rx="28" fill="url(#hGrid)" opacity=".55"/>
+  <rect width="1600" height="560" rx="28" fill="url(#hFade)"/>
+
+  <!-- ambient orbs -->
+  <circle cx="1280" cy="250" r="220" fill="url(#hOrb)">
+    <animate attributeName="r" values="190;250;190" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".7;1;.7" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1180" cy="360" r="120" fill="#5eead4" opacity=".05">
+    <animate attributeName="cx" values="1160;1200;1160" dur="8s" repeatCount="indefinite"/>
   </circle>
 
-  <g fill="none" stroke="#36bcf7" stroke-opacity=".25" stroke-width="2">
-    <path d="M980 80L1190 170L1390 100L1510 230L1320 350L1090 300Z">
-      <animate attributeName="stroke-opacity" values=".1;.5;.1" dur="4s" repeatCount="indefinite"/>
-    </path>
-    <path d="M1060 420L1160 300L1370 380L1510 300">
-      <animate attributeName="stroke-opacity" values=".4;.1;.4" dur="3s" repeatCount="indefinite"/>
-    </path>
+  <!-- orbit rings -->
+  <g fill="none" transform="translate(1260 260)">
+    <circle r="148" stroke="#2ec4ff" stroke-opacity=".18" stroke-width="1.5" stroke-dasharray="6 10">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="198" stroke="#5eead4" stroke-opacity=".12" stroke-width="1.5" stroke-dasharray="2 14">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="40s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="248" stroke="#2ec4ff" stroke-opacity=".08" stroke-width="1"/>
   </g>
 
-  <g fill="#36bcf7">
-    <circle cx="980" cy="80" r="5">
-      <animate attributeName="r" values="3;8;3" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1190" cy="170" r="5">
-      <animate attributeName="r" values="8;3;8" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1390" cy="100" r="5">
-      <animate attributeName="r" values="3;8;3" dur="2.8s" repeatCount="indefinite"/>
-    </circle>
+  <!-- constellation -->
+  <g fill="none" stroke="#2ec4ff" stroke-width="1.6">
+    <path d="M980 110L1140 170L1320 120L1460 210L1360 320L1120 290L1020 390" stroke-opacity=".28" stroke-dasharray="8 8">
+      <animate attributeName="stroke-dashoffset" values="0;64" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".14;.4;.14" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#2ec4ff">
+    <circle cx="980" cy="110" r="4"><animate attributeName="r" values="3;7;3" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1140" cy="170" r="4"><animate attributeName="r" values="7;3;7" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1320" cy="120" r="4"><animate attributeName="r" values="3;7;3" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1460" cy="210" r="4"><animate attributeName="r" values="6;3;6" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1360" cy="320" r="4"><animate attributeName="r" values="3;7;3" dur="2.8s" repeatCount="indefinite"/></circle>
   </g>
 
-  <rect x="82" y="92" width="720" height="1" fill="url(#a)"/>
-  <text x="82" y="180" fill="#f3f7ff" font-family="Arial,sans-serif" font-size="56" font-weight="700">DAVID ANDERSON NDAGA</text>
-  <text x="86" y="240" fill="#36bcf7" font-family="Arial,sans-serif" font-size="29" font-weight="700" letter-spacing="3">FULL-STACK SOFTWARE ENGINEER</text>
-  <text x="86" y="292" fill="#b7c6d9" font-family="monospace" font-size="21">SaaS • Healthcare • Pharmaceutical • FinTech • AI</text>
-  <rect x="84" y="336" width="560" height="52" rx="12" fill="#0d1726" stroke="#24435d"/>
-  <circle cx="112" cy="362" r="7" fill="#63e6be">
-    <animate attributeName="opacity" values=".3;1;.3" dur="1.8s" repeatCount="indefinite"/>
+  <!-- scan beam -->
+  <rect x="900" y="40" width="180" height="480" fill="url(#hBeam)" opacity=".35">
+    <animate attributeName="x" values="900;1450;900" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- brand copy -->
+  <text x="88" y="118" fill="#5eead4" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" letter-spacing="4">BRAINART16</text>
+  <rect x="88" y="138" width="280" height="2" rx="1" fill="url(#hAccent)">
+    <animate attributeName="width" values="120;320;120" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="88" y="230" fill="#f4f8ff" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="58" font-weight="700">David Anderson Ndaga</text>
+  <text x="88" y="286" fill="#2ec4ff" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="26" font-weight="600" letter-spacing="2.5">FULL-STACK SOFTWARE ENGINEER</text>
+  <text x="88" y="338" fill="#93a9c0" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18">SaaS  ·  Healthcare  ·  Pharma  ·  FinTech  ·  AI</text>
+
+  <!-- live pill -->
+  <rect x="88" y="380" width="430" height="52" rx="26" fill="#0b1724" stroke="#1f3a4f"/>
+  <circle cx="122" cy="406" r="7" fill="#34d399">
+    <animate attributeName="opacity" values=".35;1;.35" dur="1.6s" repeatCount="indefinite"/>
   </circle>
-  <text x="132" y="369" fill="#b9f6dd" font-family="monospace" font-size="16" font-weight="600">BUILDING PRODUCTION SYSTEMS</text>
-  <text x="86" y="442" fill="#61758f" font-family="monospace" font-size="16">FRONTEND → BACKEND → DATABASE → INFRASTRUCTURE</text>
+  <circle cx="122" cy="406" r="12" fill="none" stroke="#34d399" stroke-opacity=".35">
+    <animate attributeName="r" values="8;16;8" dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values=".45;0;.45" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="146" y="412" fill="#b8f5df" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="600">SHIPPING PRODUCTION SYSTEMS</text>
+
+  <text x="88" y="484" fill="#61758f" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">FRONTEND  →  BACKEND  →  DATA  →  INFRASTRUCTURE</text>
 </svg>

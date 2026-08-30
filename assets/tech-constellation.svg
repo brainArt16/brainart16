@@ -1,61 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620">
-<defs>
-  <radialGradient id="core"><stop stop-color="#36bcf7" stop-opacity=".42"/><stop offset="1" stop-color="#36bcf7" stop-opacity="0"/></radialGradient>
-  <linearGradient id="line"><stop stop-color="#36bcf7" stop-opacity=".65"/><stop offset="1" stop-color="#8b5cf6" stop-opacity=".25"/></linearGradient>
-  <filter id="blur"><feGaussianBlur stdDeviation="15"/></filter>
-  <style>
-    .label{font:600 18px Arial,sans-serif;fill:#d9e7f5}
-    .small{font:500 14px monospace;fill:#7188a5}
-    .core{font:700 24px Arial,sans-serif;fill:#fff}
-  </style>
-</defs>
-<rect width="1200" height="620" rx="24" fill="#080d17"/>
-<circle cx="600" cy="310" r="170" fill="url(#core)" filter="url(#blur)">
-  <animate attributeName="r" values="140;185;140" dur="5s" repeatCount="indefinite"/>
-</circle>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640">
+  <defs>
+    <radialGradient id="cGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2ec4ff" stop-opacity=".38"/>
+      <stop offset=".6" stop-color="#5eead4" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#2ec4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cLine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2ec4ff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity=".2"/>
+    </linearGradient>
+    <filter id="cSoft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
 
-<!-- connections -->
-<g fill="none" stroke="url(#line)" stroke-width="2">
-<path d="M600 310L210 150"/><path d="M600 310L205 310"/><path d="M600 310L215 480"/>
-<path d="M600 310L995 150"/><path d="M600 310L1000 310"/><path d="M600 310L985 480"/>
-</g>
+  <rect width="1200" height="640" rx="28" fill="#070c14"/>
+  <circle cx="600" cy="310" r="190" fill="url(#cGlow)" filter="url(#cSoft)">
+    <animate attributeName="r" values="160;210;160" dur="6s" repeatCount="indefinite"/>
+  </circle>
 
-<!-- animated pulses -->
-<g fill="#36bcf7">
-<circle r="5"><animateMotion dur="2.8s" repeatCount="indefinite" path="M600 310L210 150"/></circle>
-<circle r="5"><animateMotion dur="3.2s" repeatCount="indefinite" path="M600 310L1000 310"/></circle>
-<circle r="5"><animateMotion dur="3.7s" repeatCount="indefinite" path="M600 310L215 480"/></circle>
-<circle r="5"><animateMotion dur="3.1s" repeatCount="indefinite" path="M600 310L995 150"/></circle>
-</g>
+  <!-- soft orbits -->
+  <g fill="none" transform="translate(600 310)">
+    <circle r="150" stroke="#2ec4ff" stroke-opacity=".12" stroke-dasharray="4 12">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="36s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="230" stroke="#5eead4" stroke-opacity=".1" stroke-dasharray="2 16">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="48s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-<!-- core -->
-<circle cx="600" cy="310" r="105" fill="#0c1726" stroke="#36bcf7" stroke-opacity=".55"/>
-<circle cx="600" cy="310" r="82" fill="none" stroke="#36bcf7" stroke-opacity=".18">
-<animate attributeName="r" values="72;92;72" dur="4s" repeatCount="indefinite"/>
-</circle>
-<text x="600" y="303" text-anchor="middle" class="core">FULL-STACK</text>
-<text x="600" y="333" text-anchor="middle" class="core">ENGINEERING</text>
+  <!-- connections -->
+  <g fill="none" stroke="url(#cLine)" stroke-width="1.8" stroke-dasharray="6 8">
+    <path d="M600 310L220 150"><animate attributeName="stroke-dashoffset" values="0;56" dur="3s" repeatCount="indefinite"/></path>
+    <path d="M600 310L210 310"><animate attributeName="stroke-dashoffset" values="0;56" dur="3.4s" repeatCount="indefinite"/></path>
+    <path d="M600 310L230 480"><animate attributeName="stroke-dashoffset" values="0;56" dur="3.8s" repeatCount="indefinite"/></path>
+    <path d="M600 310L980 150"><animate attributeName="stroke-dashoffset" values="0;56" dur="3.2s" repeatCount="indefinite"/></path>
+    <path d="M600 310L990 310"><animate attributeName="stroke-dashoffset" values="0;56" dur="3.6s" repeatCount="indefinite"/></path>
+    <path d="M600 310L970 480"><animate attributeName="stroke-dashoffset" values="0;56" dur="4s" repeatCount="indefinite"/></path>
+  </g>
 
-<!-- nodes -->
-<g>
-<circle cx="210" cy="150" r="48" fill="#0c1726" stroke="#36bcf7" stroke-opacity=".5"/>
-<text x="210" y="156" text-anchor="middle" class="label">FRONTEND</text>
+  <!-- packets -->
+  <g>
+    <circle r="4" fill="#2ec4ff"><animateMotion dur="2.6s" repeatCount="indefinite" path="M600 310L220 150"/></circle>
+    <circle r="4" fill="#5eead4"><animateMotion dur="3s" repeatCount="indefinite" path="M600 310L990 310"/></circle>
+    <circle r="4" fill="#2ec4ff"><animateMotion dur="3.4s" repeatCount="indefinite" path="M600 310L230 480"/></circle>
+    <circle r="4" fill="#5eead4"><animateMotion dur="2.9s" repeatCount="indefinite" path="M600 310L980 150"/></circle>
+    <circle r="4" fill="#2ec4ff"><animateMotion dur="3.3s" repeatCount="indefinite" path="M600 310L210 310"/></circle>
+    <circle r="4" fill="#5eead4"><animateMotion dur="3.7s" repeatCount="indefinite" path="M600 310L970 480"/></circle>
+  </g>
 
-<circle cx="205" cy="310" r="48" fill="#0c1726" stroke="#36bcf7" stroke-opacity=".5"/>
-<text x="205" y="316" text-anchor="middle" class="label">BACKEND</text>
+  <!-- core -->
+  <circle cx="600" cy="310" r="108" fill="#0b1522" stroke="#2ec4ff" stroke-opacity=".5" stroke-width="1.5"/>
+  <circle cx="600" cy="310" r="84" fill="none" stroke="#5eead4" stroke-opacity=".2">
+    <animate attributeName="r" values="74;96;74" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="600" y="300" text-anchor="middle" fill="#ffffff" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="22" font-weight="700">FULL-STACK</text>
+  <text x="600" y="332" text-anchor="middle" fill="#ffffff" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="22" font-weight="700">ENGINEERING</text>
 
-<circle cx="215" cy="480" r="48" fill="#0c1726" stroke="#36bcf7" stroke-opacity=".5"/>
-<text x="215" y="486" text-anchor="middle" class="label">DATA</text>
+  <!-- nodes -->
+  <g font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="15" font-weight="600">
+    <circle cx="220" cy="150" r="52" fill="#0b1522" stroke="#2ec4ff" stroke-opacity=".45"/>
+    <circle cx="220" cy="150" r="58" fill="none" stroke="#2ec4ff" stroke-opacity=".15">
+      <animate attributeName="r" values="54;64;54" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="220" y="156" text-anchor="middle" fill="#dce8f5">FRONTEND</text>
 
-<circle cx="995" cy="150" r="48" fill="#0c1726" stroke="#8b5cf6" stroke-opacity=".5"/>
-<text x="995" y="156" text-anchor="middle" class="label">CLOUD</text>
+    <circle cx="210" cy="310" r="52" fill="#0b1522" stroke="#2ec4ff" stroke-opacity=".45"/>
+    <circle cx="210" cy="310" r="58" fill="none" stroke="#2ec4ff" stroke-opacity=".15">
+      <animate attributeName="r" values="64;54;64" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="210" y="316" text-anchor="middle" fill="#dce8f5">BACKEND</text>
 
-<circle cx="1000" cy="310" r="48" fill="#0c1726" stroke="#8b5cf6" stroke-opacity=".5"/>
-<text x="1000" y="316" text-anchor="middle" class="label">DEVOPS</text>
+    <circle cx="230" cy="480" r="52" fill="#0b1522" stroke="#2ec4ff" stroke-opacity=".45"/>
+    <circle cx="230" cy="480" r="58" fill="none" stroke="#2ec4ff" stroke-opacity=".15">
+      <animate attributeName="r" values="54;64;54" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="230" y="486" text-anchor="middle" fill="#dce8f5">DATA</text>
 
-<circle cx="985" cy="480" r="48" fill="#0c1726" stroke="#8b5cf6" stroke-opacity=".5"/>
-<text x="985" y="486" text-anchor="middle" class="label">AI / ML</text>
-</g>
+    <circle cx="980" cy="150" r="52" fill="#0b1522" stroke="#5eead4" stroke-opacity=".45"/>
+    <circle cx="980" cy="150" r="58" fill="none" stroke="#5eead4" stroke-opacity=".15">
+      <animate attributeName="r" values="64;54;64" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="980" y="156" text-anchor="middle" fill="#dce8f5">CLOUD</text>
 
-<text x="600" y="560" text-anchor="middle" class="small">DESIGN → BUILD → DEPLOY → OBSERVE → IMPROVE</text>
+    <circle cx="990" cy="310" r="52" fill="#0b1522" stroke="#5eead4" stroke-opacity=".45"/>
+    <circle cx="990" cy="310" r="58" fill="none" stroke="#5eead4" stroke-opacity=".15">
+      <animate attributeName="r" values="54;64;54" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="990" y="316" text-anchor="middle" fill="#dce8f5">DEVOPS</text>
+
+    <circle cx="970" cy="480" r="52" fill="#0b1522" stroke="#5eead4" stroke-opacity=".45"/>
+    <circle cx="970" cy="480" r="58" fill="none" stroke="#5eead4" stroke-opacity=".15">
+      <animate attributeName="r" values="64;54;64" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="970" y="486" text-anchor="middle" fill="#dce8f5">AI / ML</text>
+  </g>
+
+  <text x="600" y="590" text-anchor="middle" fill="#6f869f" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" letter-spacing="1.5">DESIGN → BUILD → DEPLOY → OBSERVE → IMPROVE</text>
 </svg>

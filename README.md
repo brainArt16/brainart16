@@ -9,7 +9,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=900&color=36BCF7&center=true&vCenter=true&width=900&lines=Full-Stack+Software+Engineer;Building+Scalable+SaaS+Platforms;Engineering+Healthcare+%26+Pharmaceutical+Systems;Designing+Payment+%26+Business+Infrastructure;Building+Realtime+Systems;Exploring+AI%2FML+%26+Generative+AI" alt="Animated role descriptions"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=800&color=2EC4FF&center=true&vCenter=true&width=900&lines=Full-Stack+Software+Engineer;Building+Scalable+SaaS+Platforms;Engineering+Healthcare+%26+Pharmaceutical+Systems;Designing+Payment+%26+Business+Infrastructure;Building+Realtime+Systems;Exploring+AI%2FML+%26+Generative+AI" alt="Animated role descriptions"/>
 
 </div>
 

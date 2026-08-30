@@ -1,10 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300">
-<defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#0c1524"/><stop offset="1" stop-color="#0a0f19"/></linearGradient></defs>
-<rect x="4" y="4" width="752" height="292" rx="20" fill="url(#g)" stroke="#20334b"/>
-<circle cx="670" cy="55" r="90" fill="#36bcf7" opacity=".07"><animate attributeName="opacity" values=".04;.14;.04" dur="4s" repeatCount="indefinite"/></circle>
-<text x="34" y="70" fill="#f3f7ff" font-family="Arial" font-size="28" font-weight="700">Brenox SDK</text>
-<rect x="34" y="91" width="90" height="3" fill="#36bcf7"/>
-<text x="34" y="140" fill="#b7c6d9" font-family="Arial" font-size="17">TypeScript developer SDK for realtime applications</text>
-<text x="34" y="180" fill="#6f88a5" font-family="monospace" font-size="15">TypeScript • React • WebRTC • Realtime APIs</text>
-<text x="34" y="264" fill="#36bcf7" font-family="monospace" font-size="15">VIEW PROJECT  →</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300">
+  <defs>
+    <linearGradient id="p2Bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1420"/>
+      <stop offset="1" stop-color="#071018"/>
+    </linearGradient>
+    <linearGradient id="p2Line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#2ec4ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="756" height="296" rx="24" fill="url(#p2Bg)" stroke="#1d3348"/>
+  <rect x="2" y="2" width="756" height="296" rx="24" fill="none" stroke="#5eead4" stroke-opacity=".12"/>
+  <circle cx="660" cy="80" r="110" fill="#5eead4" opacity=".06">
+    <animate attributeName="opacity" values=".04;.12;.04" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <g fill="none" stroke="#5eead4" stroke-opacity=".2" stroke-width="1.5">
+    <circle cx="640" cy="90" r="36">
+      <animate attributeName="r" values="28;44;28" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="640" cy="90" r="58" stroke-dasharray="4 10">
+      <animateTransform attributeName="transform" type="rotate" from="0 640 90" to="360 640 90" dur="18s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="40" y="72" fill="#f3f8ff" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="28" font-weight="700">Brenox SDK</text>
+  <rect x="40" y="92" width="120" height="3" rx="1.5" fill="url(#p2Line)">
+    <animate attributeName="width" values="70;160;70" dur="3.6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="40" y="146" fill="#a9bfd4" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="17">TypeScript SDK for realtime apps</text>
+  <text x="40" y="188" fill="#6f88a5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">TypeScript · React · WebRTC · APIs</text>
+  <text x="40" y="250" fill="#5eead4" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="600">VIEW PROJECT →</text>
 </svg>
