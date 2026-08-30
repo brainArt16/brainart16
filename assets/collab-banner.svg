@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160">
+  <defs>
+    <linearGradient id="cBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071018"/>
+      <stop offset="1" stop-color="#0a1624"/>
+    </linearGradient>
+    <linearGradient id="cAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ec4ff"/>
+      <stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="160" rx="24" fill="url(#cBg)" stroke="#1d3348"/>
+  <rect x="1" y="1" width="1198" height="158" rx="23" fill="none" stroke="#2ec4ff" stroke-opacity=".14"/>
+  <rect x="0" y="0" width="8" height="160" rx="4" fill="url(#cAccent)"/>
+
+  <circle cx="72" cy="80" r="10" fill="#34d399">
+    <animate attributeName="opacity" values=".4;1;.4" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="72" cy="80" r="18" fill="none" stroke="#34d399" stroke-opacity=".35">
+    <animate attributeName="r" values="12;22;12" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values=".4;0;.4" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="108" y="68" fill="#f2f7ff" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="28" font-weight="700">Open to collaboration</text>
+  <text x="108" y="102" fill="#93a9c0" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15">Remote full-stack · Healthcare / FinTech / SaaS · Realtime systems · OSS</text>
+
+  <rect x="820" y="52" width="320" height="56" rx="28" fill="#0d1a27" stroke="#2ec4ff" stroke-opacity=".45"/>
+  <text x="980" y="86" text-anchor="middle" fill="#5eead4" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700">LET'S BUILD TOGETHER</text>
+</svg>

@@ -1,27 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360">
   <defs>
-    <linearGradient id="p4Bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a1420"/>
-      <stop offset="1" stop-color="#071018"/>
-    </linearGradient>
-    <linearGradient id="p4Line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5eead4"/>
-      <stop offset="1" stop-color="#fbbf24"/>
-    </linearGradient>
+    <linearGradient id="p4Bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1420"/><stop offset="1" stop-color="#071018"/></linearGradient>
+    <linearGradient id="p4Line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
   </defs>
-  <rect x="2" y="2" width="756" height="296" rx="24" fill="url(#p4Bg)" stroke="#1d3348"/>
-  <rect x="2" y="2" width="756" height="296" rx="24" fill="none" stroke="#5eead4" stroke-opacity=".1"/>
-  <circle cx="690" cy="80" r="110" fill="#fbbf24" opacity=".05">
-    <animate attributeName="opacity" values=".03;.1;.03" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <path d="M560 50C620 40 700 80 690 140C680 200 600 210 560 170C520 130 500 60 560 50Z" fill="none" stroke="#5eead4" stroke-opacity=".22" stroke-width="1.5" stroke-dasharray="5 9">
-    <animate attributeName="stroke-dashoffset" values="0;70" dur="5s" repeatCount="indefinite"/>
-  </path>
-  <text x="40" y="72" fill="#f3f8ff" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="28" font-weight="700">Ghost Factory</text>
-  <rect x="40" y="92" width="120" height="3" rx="1.5" fill="url(#p4Line)">
-    <animate attributeName="width" values="70;160;70" dur="4.4s" repeatCount="indefinite"/>
-  </rect>
-  <text x="40" y="146" fill="#a9bfd4" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="17">Modern TypeScript product engineering</text>
-  <text x="40" y="188" fill="#6f88a5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">TypeScript · Full-Stack · Product</text>
-  <text x="40" y="250" fill="#5eead4" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="600">VIEW PROJECT →</text>
+  <rect x="2" y="2" width="756" height="356" rx="24" fill="url(#p4Bg)" stroke="#1d3348"/>
+  <rect x="2" y="2" width="756" height="356" rx="24" fill="none" stroke="#5eead4" stroke-opacity=".1"/>
+  <circle cx="690" cy="70" r="90" fill="#fbbf24" opacity=".05"><animate attributeName="opacity" values=".03;.1;.03" dur="5s" repeatCount="indefinite"/></circle>
+  <text x="40" y="54" fill="#5eead4" font-family="ui-monospace,Menlo,monospace" font-size="12" letter-spacing="2">PRODUCT ENGINEERING</text>
+  <text x="40" y="92" fill="#f3f8ff" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">Ghost Factory</text>
+  <rect x="40" y="108" width="140" height="3" rx="1.5" fill="url(#p4Line)"><animate attributeName="width" values="80;170;80" dur="4.4s" repeatCount="indefinite"/></rect>
+  <text x="40" y="152" fill="#7b93ad" font-family="ui-monospace,Menlo,monospace" font-size="12">PROBLEM</text>
+  <text x="40" y="174" fill="#c9d8e8" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15">Need a modern TypeScript playground for product-oriented</text>
+  <text x="40" y="196" fill="#c9d8e8" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15">full-stack patterns and delivery habits.</text>
+  <text x="40" y="232" fill="#7b93ad" font-family="ui-monospace,Menlo,monospace" font-size="12">STACK</text>
+  <text x="40" y="254" fill="#93a9c0" font-family="ui-monospace,Menlo,monospace" font-size="14">TypeScript · Full-stack · Product engineering</text>
+  <text x="40" y="290" fill="#7b93ad" font-family="ui-monospace,Menlo,monospace" font-size="12">IMPACT</text>
+  <text x="40" y="312" fill="#c9d8e8" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15">A living reference for structured TypeScript product work</text>
+  <text x="40" y="334" fill="#c9d8e8" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15">beyond throwaway demos.</text>
 </svg>

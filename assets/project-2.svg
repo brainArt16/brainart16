@@ -1,32 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360">
   <defs>
-    <linearGradient id="p2Bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a1420"/>
-      <stop offset="1" stop-color="#071018"/>
-    </linearGradient>
-    <linearGradient id="p2Line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5eead4"/>
-      <stop offset="1" stop-color="#2ec4ff"/>
-    </linearGradient>
+    <linearGradient id="p2Bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1420"/><stop offset="1" stop-color="#071018"/></linearGradient>
+    <linearGradient id="p2Line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#2ec4ff"/></linearGradient>
   </defs>
-  <rect x="2" y="2" width="756" height="296" rx="24" fill="url(#p2Bg)" stroke="#1d3348"/>
-  <rect x="2" y="2" width="756" height="296" rx="24" fill="none" stroke="#5eead4" stroke-opacity=".12"/>
-  <circle cx="660" cy="80" r="110" fill="#5eead4" opacity=".06">
-    <animate attributeName="opacity" values=".04;.12;.04" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <g fill="none" stroke="#5eead4" stroke-opacity=".2" stroke-width="1.5">
-    <circle cx="640" cy="90" r="36">
-      <animate attributeName="r" values="28;44;28" dur="3.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="640" cy="90" r="58" stroke-dasharray="4 10">
-      <animateTransform attributeName="transform" type="rotate" from="0 640 90" to="360 640 90" dur="18s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-  <text x="40" y="72" fill="#f3f8ff" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="28" font-weight="700">Brenox SDK</text>
-  <rect x="40" y="92" width="120" height="3" rx="1.5" fill="url(#p2Line)">
-    <animate attributeName="width" values="70;160;70" dur="3.6s" repeatCount="indefinite"/>
-  </rect>
-  <text x="40" y="146" fill="#a9bfd4" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="17">TypeScript SDK for realtime apps</text>
-  <text x="40" y="188" fill="#6f88a5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">TypeScript · React · WebRTC · APIs</text>
-  <text x="40" y="250" fill="#5eead4" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="600">VIEW PROJECT →</text>
+  <rect x="2" y="2" width="756" height="356" rx="24" fill="url(#p2Bg)" stroke="#1d3348"/>
+  <rect x="2" y="2" width="756" height="356" rx="24" fill="none" stroke="#5eead4" stroke-opacity=".12"/>
+  <circle cx="670" cy="70" r="90" fill="#5eead4" opacity=".06"><animate attributeName="opacity" values=".04;.12;.04" dur="4s" repeatCount="indefinite"/></circle>
+  <text x="40" y="54" fill="#5eead4" font-family="ui-monospace,Menlo,monospace" font-size="12" letter-spacing="2">DEVELOPER SDK</text>
+  <text x="40" y="92" fill="#f3f8ff" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">Brenox SDK</text>
+  <rect x="40" y="108" width="140" height="3" rx="1.5" fill="url(#p2Line)"><animate attributeName="width" values="80;170;80" dur="3.6s" repeatCount="indefinite"/></rect>
+  <text x="40" y="152" fill="#7b93ad" font-family="ui-monospace,Menlo,monospace" font-size="12">PROBLEM</text>
+  <text x="40" y="174" fill="#c9d8e8" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15">Frontend teams need a typed client for realtime features</text>
+  <text x="40" y="196" fill="#c9d8e8" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15">without wiring low-level protocols by hand.</text>
+  <text x="40" y="232" fill="#7b93ad" font-family="ui-monospace,Menlo,monospace" font-size="12">STACK</text>
+  <text x="40" y="254" fill="#93a9c0" font-family="ui-monospace,Menlo,monospace" font-size="14">TypeScript · React · WebRTC · Realtime APIs</text>
+  <text x="40" y="290" fill="#7b93ad" font-family="ui-monospace,Menlo,monospace" font-size="12">IMPACT</text>
+  <text x="40" y="312" fill="#c9d8e8" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15">Clean developer surface for auth, channels, presence,</text>
+  <text x="40" y="334" fill="#c9d8e8" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15">and media signaling in modern web apps.</text>
 </svg>

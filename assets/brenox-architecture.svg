@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560">
+  <defs>
+    <linearGradient id="aLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ec4ff" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity=".35"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#2ec4ff"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="560" rx="28" fill="#070c14" stroke="#1b2f42"/>
+  <text x="48" y="48" fill="#5eead4" font-family="ui-monospace,Menlo,monospace" font-size="13" letter-spacing="2">BRENOX SYSTEM MAP</text>
+  <text x="48" y="82" fill="#f2f7ff" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">Realtime communication architecture</text>
+  <text x="48" y="112" fill="#7b93ad" font-family="ui-monospace,Menlo,monospace" font-size="13">Clients ’ Edge/API ’ Engine ’ Data plane ’ Observability</text>
+
+  <!-- Clients -->
+  <g>
+    <rect x="48" y="170" width="200" height="120" rx="18" fill="#0d1a27" stroke="#2ec4ff" stroke-opacity=".45"/>
+    <text x="148" y="214" text-anchor="middle" fill="#f2f7ff" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">Clients</text>
+    <text x="148" y="240" text-anchor="middle" fill="#93a9c0" font-family="ui-monospace,Menlo,monospace" font-size="12">Web · Mobile · Bots</text>
+    <text x="148" y="262" text-anchor="middle" fill="#5eead4" font-family="ui-monospace,Menlo,monospace" font-size="11">TS SDK · Python SDK</text>
+  </g>
+
+  <!-- API -->
+  <g>
+    <rect x="320" y="170" width="200" height="120" rx="18" fill="#0d1a27" stroke="#2ec4ff" stroke-opacity=".45"/>
+    <text x="420" y="214" text-anchor="middle" fill="#f2f7ff" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">API Gateway</text>
+    <text x="420" y="240" text-anchor="middle" fill="#93a9c0" font-family="ui-monospace,Menlo,monospace" font-size="12">Auth · REST · WS</text>
+    <text x="420" y="262" text-anchor="middle" fill="#5eead4" font-family="ui-monospace,Menlo,monospace" font-size="11">Rate limits · Tokens</text>
+  </g>
+
+  <!-- Engine -->
+  <g>
+    <rect x="592" y="150" width="240" height="160" rx="18" fill="#0b1724" stroke="#5eead4" stroke-opacity=".55"/>
+    <rect x="592" y="150" width="240" height="160" rx="18" fill="none" stroke="#2ec4ff" stroke-opacity=".2">
+      <animate attributeName="stroke-opacity" values=".1;.45;.1" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="712" y="200" text-anchor="middle" fill="#f2f7ff" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Brenox Engine</text>
+    <text x="712" y="228" text-anchor="middle" fill="#93a9c0" font-family="ui-monospace,Menlo,monospace" font-size="12">Channels · Presence</text>
+    <text x="712" y="250" text-anchor="middle" fill="#93a9c0" font-family="ui-monospace,Menlo,monospace" font-size="12">Messaging · Signaling</text>
+    <text x="712" y="278" text-anchor="middle" fill="#5eead4" font-family="ui-monospace,Menlo,monospace" font-size="11">Go · multi-instance</text>
+  </g>
+
+  <!-- Data -->
+  <g>
+    <rect x="920" y="150" width="220" height="70" rx="16" fill="#0d1a27" stroke="#2ec4ff" stroke-opacity=".4"/>
+    <text x="1030" y="180" text-anchor="middle" fill="#f2f7ff" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">PostgreSQL</text>
+    <text x="1030" y="202" text-anchor="middle" fill="#7b93ad" font-family="ui-monospace,Menlo,monospace" font-size="11">workspaces · history</text>
+
+    <rect x="920" y="240" width="220" height="70" rx="16" fill="#0d1a27" stroke="#5eead4" stroke-opacity=".4"/>
+    <text x="1030" y="270" text-anchor="middle" fill="#f2f7ff" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Redis</text>
+    <text x="1030" y="292" text-anchor="middle" fill="#7b93ad" font-family="ui-monospace,Menlo,monospace" font-size="11">presence · pub/sub · cache</text>
+  </g>
+
+  <!-- arrows top row -->
+  <path d="M248 230H320" stroke="url(#aLine)" stroke-width="2" marker-end="url(#arrow)">
+    <animate attributeName="stroke-opacity" values=".35;1;.35" dur="2.4s" repeatCount="indefinite"/>
+  </path>
+  <path d="M520 230H592" stroke="url(#aLine)" stroke-width="2" marker-end="url(#arrow)">
+    <animate attributeName="stroke-opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M832 185H920" stroke="url(#aLine)" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M832 260H920" stroke="url(#aLine)" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- bottom lane: media + ops -->
+  <g>
+    <rect x="320" y="380" width="200" height="100" rx="18" fill="#0d1a27" stroke="#2ec4ff" stroke-opacity=".35"/>
+    <text x="420" y="422" text-anchor="middle" fill="#f2f7ff" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">WebRTC Media</text>
+    <text x="420" y="448" text-anchor="middle" fill="#93a9c0" font-family="ui-monospace,Menlo,monospace" font-size="12">voice · video signaling</text>
+  </g>
+  <g>
+    <rect x="592" y="380" width="240" height="100" rx="18" fill="#0d1a27" stroke="#5eead4" stroke-opacity=".35"/>
+    <text x="712" y="422" text-anchor="middle" fill="#f2f7ff" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Platform Ops</text>
+    <text x="712" y="448" text-anchor="middle" fill="#93a9c0" font-family="ui-monospace,Menlo,monospace" font-size="12">Docker · K8s · CI/CD · Sentry</text>
+  </g>
+  <g>
+    <rect x="920" y="380" width="220" height="100" rx="18" fill="#0d1a27" stroke="#2ec4ff" stroke-opacity=".35"/>
+    <text x="1030" y="422" text-anchor="middle" fill="#f2f7ff" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Observability</text>
+    <text x="1030" y="448" text-anchor="middle" fill="#93a9c0" font-family="ui-monospace,Menlo,monospace" font-size="12">logs · metrics · traces</text>
+  </g>
+
+  <path d="M712 310V380" stroke="#2ec4ff" stroke-opacity=".35" stroke-width="2" stroke-dasharray="4 6">
+    <animate attributeName="stroke-dashoffset" values="0;20" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M420 310V380" stroke="#2ec4ff" stroke-opacity=".25" stroke-width="2" stroke-dasharray="4 6"/>
+  <path d="M1030 310V380" stroke="#5eead4" stroke-opacity=".25" stroke-width="2" stroke-dasharray="4 6"/>
+
+  <text x="600" y="530" text-anchor="middle" fill="#6f88a5" font-family="ui-monospace,Menlo,monospace" font-size="12">DESIGN ’ BUILD ’ DEPLOY ’ OBSERVE ’ IMPROVE</text>
+</svg>

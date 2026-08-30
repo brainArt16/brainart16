@@ -1,29 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" width="760" height="360">
   <defs>
-    <linearGradient id="p3Bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a1420"/>
-      <stop offset="1" stop-color="#071018"/>
-    </linearGradient>
-    <linearGradient id="p3Line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2ec4ff"/>
-      <stop offset="1" stop-color="#94a3b8"/>
-    </linearGradient>
+    <linearGradient id="p3Bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1420"/><stop offset="1" stop-color="#071018"/></linearGradient>
+    <linearGradient id="p3Line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2ec4ff"/><stop offset="1" stop-color="#94a3b8"/></linearGradient>
   </defs>
-  <rect x="2" y="2" width="756" height="296" rx="24" fill="url(#p3Bg)" stroke="#1d3348"/>
-  <rect x="2" y="2" width="756" height="296" rx="24" fill="none" stroke="#2ec4ff" stroke-opacity=".1"/>
-  <circle cx="680" cy="70" r="110" fill="#2ec4ff" opacity=".05">
-    <animate attributeName="opacity" values=".03;.1;.03" dur="4.5s" repeatCount="indefinite"/>
-  </circle>
-  <g fill="#2ec4ff" opacity=".35">
-    <circle cx="600" cy="70" r="4"><animate attributeName="cy" values="70;120;70" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="640" cy="100" r="4"><animate attributeName="cy" values="100;60;100" dur="3.4s" repeatCount="indefinite"/></circle>
-    <circle cx="680" cy="80" r="4"><animate attributeName="cy" values="80;130;80" dur="2.8s" repeatCount="indefinite"/></circle>
-  </g>
-  <text x="40" y="72" fill="#f3f8ff" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="28" font-weight="700">Brenox Python</text>
-  <rect x="40" y="92" width="120" height="3" rx="1.5" fill="url(#p3Line)">
-    <animate attributeName="width" values="70;160;70" dur="4s" repeatCount="indefinite"/>
-  </rect>
-  <text x="40" y="146" fill="#a9bfd4" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="17">Python SDK for server-side integrations</text>
-  <text x="40" y="188" fill="#6f88a5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">Python · API · SDK Engineering</text>
-  <text x="40" y="250" fill="#2ec4ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="600">VIEW PROJECT →</text>
+  <rect x="2" y="2" width="756" height="356" rx="24" fill="url(#p3Bg)" stroke="#1d3348"/>
+  <rect x="2" y="2" width="756" height="356" rx="24" fill="none" stroke="#2ec4ff" stroke-opacity=".1"/>
+  <circle cx="680" cy="60" r="90" fill="#2ec4ff" opacity=".05"><animate attributeName="opacity" values=".03;.1;.03" dur="4.5s" repeatCount="indefinite"/></circle>
+  <text x="40" y="54" fill="#5eead4" font-family="ui-monospace,Menlo,monospace" font-size="12" letter-spacing="2">SERVER SDK</text>
+  <text x="40" y="92" fill="#f3f8ff" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">Brenox Python</text>
+  <rect x="40" y="108" width="140" height="3" rx="1.5" fill="url(#p3Line)"><animate attributeName="width" values="80;170;80" dur="4s" repeatCount="indefinite"/></rect>
+  <text x="40" y="152" fill="#7b93ad" font-family="ui-monospace,Menlo,monospace" font-size="12">PROBLEM</text>
+  <text x="40" y="174" fill="#c9d8e8" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15">Backend services need a first-class Python client</text>
+  <text x="40" y="196" fill="#c9d8e8" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15">for Brenox APIs and automation workflows.</text>
+  <text x="40" y="232" fill="#7b93ad" font-family="ui-monospace,Menlo,monospace" font-size="12">STACK</text>
+  <text x="40" y="254" fill="#93a9c0" font-family="ui-monospace,Menlo,monospace" font-size="14">Python · REST/API clients · SDK engineering</text>
+  <text x="40" y="290" fill="#7b93ad" font-family="ui-monospace,Menlo,monospace" font-size="12">IMPACT</text>
+  <text x="40" y="312" fill="#c9d8e8" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15">Lets Python services provision, message, and integrate</text>
+  <text x="40" y="334" fill="#c9d8e8" font-family="Avenir Next,Segoe UI,Arial,sans-serif" font-size="15">with the Brenox platform consistently.</text>
 </svg>

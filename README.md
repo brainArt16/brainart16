@@ -6,12 +6,21 @@
 
 <a href="mailto:davidndaga1603@gmail.com"><img src="https://img.shields.io/badge/Email-davidndaga1603%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://github.com/brainArt16"><img src="https://img.shields.io/badge/GitHub-brainArt16-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/david-ndaga-79a35a1ba/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
 <br/><br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=800&color=2EC4FF&center=true&vCenter=true&width=900&lines=Full-Stack+Software+Engineer;Building+Scalable+SaaS+Platforms;Engineering+Healthcare+%26+Pharmaceutical+Systems;Designing+Payment+%26+Business+Infrastructure;Building+Realtime+Systems;Exploring+AI%2FML+%26+Generative+AI" alt="Animated role descriptions"/>
 
 </div>
+
+---
+
+<img src="./assets/collab-banner.svg" width="100%" alt="Open to collaboration"/>
+
+<br/>
+
+<a href="mailto:davidndaga1603@gmail.com"><img src="./assets/contact-strip.svg" width="100%" alt="Contact and availability"/></a>
 
 ---
 
@@ -47,12 +56,23 @@ I turn real-world problems into **scalable, secure, reliable, and maintainable p
 
 ---
 
+<img src="./assets/icons/architecture.svg" width="100%" alt="Architecture"/>
+
+<div align="center">
+
+<img src="./assets/brenox-architecture.svg" width="100%" alt="Brenox realtime architecture"/>
+
+</div>
+
+---
+
 <img src="./assets/icons/featured.svg" width="100%" alt="Featured Engineering"/>
 
 <div align="center">
 
 <a href="https://github.com/brainArt16/brenox-engine"><img src="./assets/project-1.svg" width="49%" alt="Brenox Engine"/></a>
 <a href="https://github.com/brainArt16/brenox-sdk"><img src="./assets/project-2.svg" width="49%" alt="Brenox SDK"/></a>
+<br/>
 <a href="https://github.com/brainArt16/brenox-python"><img src="./assets/project-3.svg" width="49%" alt="Brenox Python"/></a>
 <a href="https://github.com/brainArt16/ghost-factory"><img src="./assets/project-4.svg" width="49%" alt="Ghost Factory"/></a>
 
@@ -93,7 +113,9 @@ I turn real-world problems into **scalable, secure, reliable, and maintainable p
 
 <br/><br/>
 
-<a href="mailto:davidndaga1603@gmail.com"><img src="https://img.shields.io/badge/Let's%20Build%20Together-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="mailto:davidndaga1603@gmail.com"><img src="https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://github.com/brainArt16"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/david-ndaga-79a35a1ba/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
 <br/><br/>
 
