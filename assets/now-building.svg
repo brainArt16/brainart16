@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+<defs><linearGradient id="g"><stop stop-color="#36bcf7"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
+<rect width="1200" height="300" rx="24" fill="#080d17" stroke="#20334b"/>
+<text x="55" y="62" fill="#36bcf7" font-family="monospace" font-size="16">CURRENT_BUILD_STATUS</text>
+<text x="55" y="108" fill="#f3f7ff" font-family="Arial" font-size="31" font-weight="700">Building systems that solve real operational problems.</text>
+<g font-family="monospace" font-size="16">
+<text x="58" y="165" fill="#8fa6bf">01</text><text x="105" y="165" fill="#d7e3ef">Healthcare &amp; pharmaceutical platforms</text>
+<text x="58" y="202" fill="#8fa6bf">02</text><text x="105" y="202" fill="#d7e3ef">SaaS &amp; payment infrastructure</text>
+<text x="58" y="239" fill="#8fa6bf">03</text><text x="105" y="239" fill="#d7e3ef">Realtime systems &amp; AI-powered products</text>
+</g>
+<rect x="1040" y="46" width="105" height="8" rx="4" fill="url(#g)">
+<animate attributeName="width" values="30;105;30" dur="2.4s" repeatCount="indefinite"/>
+</rect>
+</svg>

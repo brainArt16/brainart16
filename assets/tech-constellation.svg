@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620">
+<defs>
+  <radialGradient id="core"><stop stop-color="#36bcf7" stop-opacity=".42"/><stop offset="1" stop-color="#36bcf7" stop-opacity="0"/></radialGradient>
+  <linearGradient id="line"><stop stop-color="#36bcf7" stop-opacity=".65"/><stop offset="1" stop-color="#8b5cf6" stop-opacity=".25"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="15"/></filter>
+  <style>
+    .label{font:600 18px Arial,sans-serif;fill:#d9e7f5}
+    .small{font:500 14px monospace;fill:#7188a5}
+    .core{font:700 24px Arial,sans-serif;fill:#fff}
+  </style>
+</defs>
+<rect width="1200" height="620" rx="24" fill="#080d17"/>
+<circle cx="600" cy="310" r="170" fill="url(#core)" filter="url(#blur)">
+  <animate attributeName="r" values="140;185;140" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<!-- connections -->
+<g fill="none" stroke="url(#line)" stroke-width="2">
+<path d="M600 310L210 150"/><path d="M600 310L205 310"/><path d="M600 310L215 480"/>
+<path d="M600 310L995 150"/><path d="M600 310L1000 310"/><path d="M600 310L985 480"/>
+</g>
+
+<!-- animated pulses -->
+<g fill="#36bcf7">
+<circle r="5"><animateMotion dur="2.8s" repeatCount="indefinite" path="M600 310L210 150"/></circle>
+<circle r="5"><animateMotion dur="3.2s" repeatCount="indefinite" path="M600 310L1000 310"/></circle>
+<circle r="5"><animateMotion dur="3.7s" repeatCount="indefinite" path="M600 310L215 480"/></circle>
+<circle r="5"><animateMotion dur="3.1s" repeatCount="indefinite" path="M600 310L995 150"/></circle>
+</g>
+
+<!-- core -->
+<circle cx="600" cy="310" r="105" fill="#0c1726" stroke="#36bcf7" stroke-opacity=".55"/>
+<circle cx="600" cy="310" r="82" fill="none" stroke="#36bcf7" stroke-opacity=".18">
+<animate attributeName="r" values="72;92;72" dur="4s" repeatCount="indefinite"/>
+</circle>
+<text x="600" y="303" text-anchor="middle" class="core">FULL-STACK</text>
+<text x="600" y="333" text-anchor="middle" class="core">ENGINEERING</text>
+
+<!-- nodes -->
+<g>
+<circle cx="210" cy="150" r="48" fill="#0c1726" stroke="#36bcf7" stroke-opacity=".5"/>
+<text x="210" y="156" text-anchor="middle" class="label">FRONTEND</text>
+
+<circle cx="205" cy="310" r="48" fill="#0c1726" stroke="#36bcf7" stroke-opacity=".5"/>
+<text x="205" y="316" text-anchor="middle" class="label">BACKEND</text>
+
+<circle cx="215" cy="480" r="48" fill="#0c1726" stroke="#36bcf7" stroke-opacity=".5"/>
+<text x="215" y="486" text-anchor="middle" class="label">DATA</text>
+
+<circle cx="995" cy="150" r="48" fill="#0c1726" stroke="#8b5cf6" stroke-opacity=".5"/>
+<text x="995" y="156" text-anchor="middle" class="label">CLOUD</text>
+
+<circle cx="1000" cy="310" r="48" fill="#0c1726" stroke="#8b5cf6" stroke-opacity=".5"/>
+<text x="1000" y="316" text-anchor="middle" class="label">DEVOPS</text>
+
+<circle cx="985" cy="480" r="48" fill="#0c1726" stroke="#8b5cf6" stroke-opacity=".5"/>
+<text x="985" y="486" text-anchor="middle" class="label">AI / ML</text>
+</g>
+
+<text x="600" y="560" text-anchor="middle" class="small">DESIGN → BUILD → DEPLOY → OBSERVE → IMPROVE</text>
+</svg>
