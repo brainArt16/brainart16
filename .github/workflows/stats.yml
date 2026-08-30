@@ -1,0 +1,53 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          path: assets/stats/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=070c14&title_color=2ec4ff&icon_color=5eead4&text_color=d7e4f2&ring_color=2ec4ff&border_radius=16
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          path: assets/stats/langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&bg_color=070c14&title_color=2ec4ff&text_color=d7e4f2&border_radius=16
+
+      - name: Generate streak card
+        run: |
+          mkdir -p assets/stats
+          curl -fsSL \
+            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=transparent&hide_border=true&background=070C14&stroke=1D3348&ring=2EC4FF&fire=5EEAD4&currStreakLabel=2EC4FF&sideLabels=93A9C0&currStreakNum=F2F7FF&sideNums=D7E4F2&dates=6F88A5" \
+            -o assets/stats/streak.svg
+
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats/*.svg
+          git commit -m "chore: refresh profile stats cards" || exit 0
+          git push

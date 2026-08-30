@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 72" width="1200" height="72">
+  <rect width="1200" height="72" rx="16" fill="#070c14" stroke="#1b2f42"/>
+  <rect x="18" y="16" width="40" height="40" rx="10" fill="#0d1a27" stroke="#2ec4ff" stroke-opacity=".35"/>
+  <circle cx="38" cy="36" r="8" fill="none" stroke="#2ec4ff" stroke-width="2"/>
+  <circle cx="38" cy="36" r="3" fill="#5eead4"/>
+  <path d="M30 36h-4M46 36h4M38 28v-4M38 44v4" stroke="#2ec4ff" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="76" y="44" fill="#f2f7ff" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="24" font-weight="700">Engineering Map</text>
+  <text x="1180" y="44" text-anchor="end" fill="#6f88a5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13">SYSTEM_GRAPH</text>
+</svg>

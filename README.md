@@ -15,7 +15,7 @@
 
 ---
 
-## `> whoami`
+<img src="./assets/icons/whoami.svg" width="100%" alt="whoami"/>
 
 **Full-Stack Software Engineer** building modern software across the **frontend, backend, APIs, databases, and infrastructure**.
 
@@ -27,7 +27,7 @@ I turn real-world problems into **scalable, secure, reliable, and maintainable p
 
 ---
 
-# 🧠 Engineering Map
+<img src="./assets/icons/engineering-map.svg" width="100%" alt="Engineering Map"/>
 
 <div align="center">
 
@@ -37,7 +37,7 @@ I turn real-world problems into **scalable, secure, reliable, and maintainable p
 
 ---
 
-# 🧰 Tech Stack
+<img src="./assets/icons/tech-stack.svg" width="100%" alt="Tech Stack"/>
 
 <div align="center">
 
@@ -56,7 +56,7 @@ I turn real-world problems into **scalable, secure, reliable, and maintainable p
 
 ---
 
-# ⭐ Featured Engineering
+<img src="./assets/icons/featured.svg" width="100%" alt="Featured Engineering"/>
 
 <div align="center">
 
@@ -69,22 +69,22 @@ I turn real-world problems into **scalable, secure, reliable, and maintainable p
 
 ---
 
-# 📊 Engineering Activity
+<img src="./assets/icons/activity.svg" width="100%" alt="Engineering Activity"/>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=brainArt16&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=brainArt16&layout=compact&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" height="170"/>
+<img src="./assets/stats/stats.svg" height="170" alt="GitHub stats"/>
+<img src="./assets/stats/langs.svg" height="170" alt="Top languages"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=brainArt16&theme=github-dark-blue&hide_border=true"/>
+<img src="./assets/stats/streak.svg" width="495" alt="GitHub streak"/>
 
 </div>
 
 ---
 
-# 🟩 Contribution Graph
+<img src="./assets/icons/contribution.svg" width="100%" alt="Contribution Graph"/>
 
 <div align="center">
 
@@ -94,7 +94,7 @@ I turn real-world problems into **scalable, secure, reliable, and maintainable p
 
 ---
 
-# 🤝 Let's Build
+<img src="./assets/icons/lets-build.svg" width="100%" alt="Let's Build"/>
 
 <div align="center">
 

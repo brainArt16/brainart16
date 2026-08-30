@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 96" width="1200" height="96">
+  <defs>
+    <linearGradient id="aAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ec4ff"/>
+      <stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="96" rx="20" fill="#070c14" stroke="#1b2f42"/>
+  <rect x="24" y="22" width="52" height="52" rx="14" fill="#0d1a27" stroke="#2ec4ff" stroke-opacity=".4"/>
+  <rect x="36" y="52" width="6" height="10" rx="1" fill="#2ec4ff"/>
+  <rect x="46" y="44" width="6" height="18" rx="1" fill="#5eead4"/>
+  <rect x="56" y="36" width="6" height="26" rx="1" fill="#2ec4ff"/>
+  <text x="96" y="48" fill="#f2f7ff" font-family="Avenir Next,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="26" font-weight="700">Engineering Activity</text>
+  <text x="96" y="74" fill="#7b93ad" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">Static cards refreshed daily via GitHub Actions</text>
+  <rect x="920" y="42" width="240" height="12" rx="6" fill="#122033"/>
+  <rect x="920" y="42" width="150" height="12" rx="6" fill="url(#aAccent)">
+    <animate attributeName="width" values="60;210;120;180;60" dur="4.8s" repeatCount="indefinite"/>
+  </rect>
+</svg>
